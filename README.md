@@ -1,6 +1,6 @@
 # Flyme patchrom for p8-lite
 
-UI:Flyme 6
+UI种类:Flyme 6
 
 Android 版本:Android 6.0.1
 
