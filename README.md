@@ -8,7 +8,7 @@ Android 版本:Android 6.0.1
 
 团队：[NESP Tchnology](http://nesp.1g7.net)
 
-官方微博: [https://m.weibo.cn/u/3619635672?uid=3619635672&luicode=10000011&lfid=1076033619635672&featurecode=20000320](https://m.weibo.cn/u/3619635672?uid=3619635672&luicode=10000011&lfid=1076033619635672&featurecode=20000320)
+官方微博: [https://weibo.com/NESP_Tchnology](https://weibo.com/NESP_Tchnology)
 
 ## 更新日志 
 ### 2017/09/24 周天 建立  
