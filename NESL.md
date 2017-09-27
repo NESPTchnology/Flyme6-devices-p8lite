@@ -1,6 +1,5 @@
 
 # <center> NESP软件及第三方ROM使用协议v1.1</center >
-<center> ssss</center>
 NESP软件及第三方ROM（参见本协议中的第2.1节）是由NESP Tchnology(以下简称"NESP")成员共同开发和适配完成.如果您要使用NESP软件及第三方ROM,您需要遵守以下协议:
 
 ## 1. 特别注意
@@ -54,4 +53,4 @@ NESP有权随时修改本协议的任何条款,一旦本协议的内容发生变
 ### 8.2 
 本协议停止后，第4,5,6和7条继续有效。
 
-NESP Software LICENCE 2017/09/27
+**NESP Software LICENCE 2017/09/27**
