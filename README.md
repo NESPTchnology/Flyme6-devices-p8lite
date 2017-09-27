@@ -1,3 +1,5 @@
+## 请先阅读：[NESP软件及第三方ROM使用协议v1.](./NESL.md) | [Apache许可证2.0](./Apache.md) | [GPLv2](./GPL.md)
+
 # Flyme patchrom for p8-lite
 
 UI种类:Flyme 6
