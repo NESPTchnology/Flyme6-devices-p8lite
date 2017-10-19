@@ -161,7 +161,6 @@ on early-fs
     start oeminfo_nvm
 
 on fs
-
     wait /dev/block/platform/hi_mci.0
     mount_all /fstab.hi6210sft
 
@@ -276,7 +275,7 @@ on post-fs
     chmod 0440 /proc/kmsg_boot
     chmod 0440 /dev/log/main_boot
     chmod 0440 /dev/log/system_boot
-    chmod 0440 /dev/log/radio_boot	
+    chmod 0440 /dev/log/radio_boot
 
     # update cpuset now that processors are up
     # Foreground should contain all cores

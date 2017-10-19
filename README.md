@@ -13,7 +13,9 @@ Android 版本:Android 6.0.1
 官方微博: [NESP_Tchnology](http://weibo.com/NESPtechnology)
 
 ## 更新日志 
-### 2017/09/24 周天 建立  
-#### 已知bug
-1.数据链接不能用(底包bug,修复时间待定)
-
+### 2017/09/24 周天 建立 
+1.数据链接不能用(底包bug)
+### 2017/10/19 Flyme6.7.10.16
+1.数据链接不能用(底包bug)除非手动设置APN
+2.升级了底包 @haky 86
+3.升级部分APP

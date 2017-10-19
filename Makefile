@@ -54,7 +54,7 @@ vendor_modify_images := boot
 # The default value is Bluetooth.
 # You can configure the apk name in the vendor/system/app or vendor/system/priv-app directory.
 #-----------------------------------------------------------------------------
-vendor_saved_apps := Bluetooth BluetoothMidiService HTMLViewer KeyChain NfcNci PicoTts PrintSpooler UserDictionaryProvider BackupRestoreConfirmation DefaultContainerService ExternalStorageProvider FusedLocation InputDevices ProxyHandler SharedStorageBackup Shell 
+vendor_saved_apps := Bluetooth BluetoothMidiService HTMLViewer KeyChain NfcNci PicoTts PrintSpooler UserDictionaryProvider BackupRestoreConfirmation DefaultContainerService ExternalStorageProvider FusedLocation InputDevices ProxyHandler SharedStorageBackup Shell Footej
 #CMSettingsProvider telresources
 
 ##############################################################################
@@ -140,7 +140,7 @@ override_property += \
 # The default value is Nexus-6P_Unofficial.
 # You should configure the property according to your device and your ID with replace the "Nexus-6P_Unofficial".
 override_property += \
-    ro.flyme.romer=Water \
+    ro.flyme.romer=Unofficial_Water \
     ro.product.model_romer=ALE-TL00 \
     ro.product.device=hi6210sft \
     ro.product.model=ALE-TL00
@@ -185,7 +185,7 @@ PRODUCE_BLOCK_BASED_OTA := false
 # Defines whether build an international version of package.
 # Default: false
 #-----------------------------------------------------------------------------
-#PRODUCE_INTERNATIONAL_ROM := true
+PRODUCE_INTERNATIONAL_ROM := true
 
 ##############################################################################
 # Defines whether use sepolicy inject.

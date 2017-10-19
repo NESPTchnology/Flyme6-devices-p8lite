@@ -18,6 +18,6 @@ persist.sys.usb.config=mtp
 #
 # BOOTIMAGE_BUILD_PROPERTIES
 #
-ro.bootimage.build.date=Tue May 2 09:24:08 CST 2017
-ro.bootimage.build.date.utc=1493688248
-ro.bootimage.build.fingerprint=google/aosp_angler/angler:6.0.1/M4B30Z/builder.20170502091936_R:user/test-keys
+ro.bootimage.build.date=Tue May 2 08:42:54 CST 2017
+ro.bootimage.build.date.utc=1493685775
+ro.bootimage.build.fingerprint=google/aosp_angler/angler:6.0.1/M4B30Z/builder.20170502083824_I:user/test-keys

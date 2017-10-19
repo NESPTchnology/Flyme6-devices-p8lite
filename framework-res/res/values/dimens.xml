@@ -295,4 +295,5 @@
     <dimen name="day_picker_padding_top">6.0dip</dimen>
     <dimen name="day_picker_button_margin_top">0.0dip</dimen>
     <dimen name="datepicker_view_animator_height">226.0dip</dimen>
+    <item type="dimen" name="APKTOOL_DUMMY_a6">false</item>
 </resources>

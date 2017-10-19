@@ -144,4 +144,3 @@ call_adapter                              u:object_r:telecom_service:s0
 flyme_perf                                u:object_r:flyme_perf_service:s0
 alphame_server                            u:object_r:alphame_service:s0
 
-
