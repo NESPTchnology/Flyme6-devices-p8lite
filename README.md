@@ -7,7 +7,7 @@ UI种类:Flyme 6
 
 Android 版本:Android 6.0.1
 
-机型：华为P8 Lite(ALE-TL00)
+机型：华为P8 Lite(ALE-TL00,ALE-L21)
 
 团队官网:[NESP Technology](http://nesp.1g7.net)
 
@@ -18,5 +18,5 @@ Android 版本:Android 6.0.1
 1.数据链接不能用(底包bug)
 ### 2017/10/19 Flyme6.7.10.16
 1.数据链接不能用(底包bug)除非手动设置APN  
-2.升级了底包 @haky 86  
+2.升级了底包 @haky 86(XDA ID)
 3.升级部分APP
