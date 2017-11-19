@@ -1,4 +1,4 @@
-## 语言:中文|[English]
+## 语言:中文 | [English](./README_EN.md)
 ## 请先阅读：[NESP Software Licence v1.1](./NESL.md) | [Apache许可证2.0](./Apache.md) | [GPLv2](./GPL.md)
 
 # Flyme patchrom for p8-lite
