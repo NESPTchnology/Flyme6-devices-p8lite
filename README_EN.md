@@ -15,9 +15,14 @@ Team Website(Building):[NESP Technology](http://nesp.1g7.net)  
 Team Weibo: [NESP_Technology](http://weibo.com/NESPtechnology)  
 
 ## Update Logs
-### 24/09/2017 Sunday Build   
-1.Mobile data is not work(Aosp bug).  
-### 2017/10/19 Flyme6.7.10.16  
-1.Mobile data is not work(AOSP bug)unless setting APN.  
+### 24/09/2017 Sunday Build . 
+
+1.Mobile data is not work(Aosp bug).   
+
+### 2017/10/19 Flyme6.7.10.16 . 
+
+1.Mobile data is not work(AOSP bug)unless setting APN.   
+
 2.Update the AOSP @haky 86(XDA ID).    
+
 3.Update some APP  
