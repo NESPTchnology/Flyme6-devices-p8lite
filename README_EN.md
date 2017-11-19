@@ -2,7 +2,7 @@
 
 ## Please Read：[NESP Software Licence v1.1](./NESL.md) | [Apache2.0](./Apache.md) | [GPLv2](./GPL.md)  
 
-# Flyme patchrom for p8-lite  
+# Flyme Patchrom for P8-lite  
 
 UI:Flyme 6  
 
