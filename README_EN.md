@@ -19,7 +19,7 @@ Team Weibo: [NESP_Technology](http://weibo.com/NESPtechnology)  
 
 1.Mobile data is not work(Aosp bug).   
 
-### 2017/10/19 Flyme6.7.10.16 . 
+### 19/10/2017 Flyme6.7.10.16 . 
 
 1.Mobile data is not work(AOSP bug)unless setting APN.   
 2.Update the AOSP @haky 86(XDA ID).   
