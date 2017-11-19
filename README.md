@@ -1,3 +1,4 @@
+## 语言:中文|[English]
 ## 请先阅读：[NESP Software Licence v1.1](./NESL.md) | [Apache许可证2.0](./Apache.md) | [GPLv2](./GPL.md)
 
 # Flyme patchrom for p8-lite
@@ -8,9 +9,9 @@ Android 版本:Android 6.0.1
 
 机型：华为P8 Lite(ALE-TL00)
 
-团队官网:[NESP Tchnology](http://nesp.1g7.net)
+团队官网:[NESP Technology](http://nesp.1g7.net)
 
-官方微博: [NESP_Tchnology](http://weibo.com/NESPtechnology)
+官方微博: [NESP_Technology](http://weibo.com/NESPtechnology)
 
 ## 更新日志 
 ### 2017/09/24 周天 建立 
