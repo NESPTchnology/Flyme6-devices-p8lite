@@ -1,4 +1,4 @@
-![flyme6][1]
+![./images/flyme6.png][1]
 ## 语言:中文 | [English](./README_EN.md)
 ## 请先阅读：[NESP Software Licence v1.1](./NESL.md) | [Apache许可证2.0](./Apache.md) | [GPLv2](./GPL.md)   
 
