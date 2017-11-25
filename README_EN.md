@@ -34,10 +34,8 @@ Open terminal type the following instructions:
 
 ``` scilab
 cd  ~/flyme
-```
 
-
-``` stata
 mkdir devices/p8l
-cd devices/p8l
 
+cd devices/p8l
+```
