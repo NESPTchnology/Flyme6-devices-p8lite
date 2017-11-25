@@ -1,4 +1,4 @@
-![enter description here][1]
+![./images/flyme6.png][1]
 ## 语言:中文 | [English](./README_EN.md)
 ## 请先阅读：[NESP Software Licence v1.1](./NESL.md) | [Apache许可证2.0](./Apache.md) | [GPLv2](./GPL.md)   
 
@@ -45,4 +45,4 @@
 最后你可以在out目录下得到zip刷机包。
 
 
-  [1]: ./images/flyme.jpg "flyme.jpg"
+  [1]: ./images/flyme6.png "flyme6.png"
