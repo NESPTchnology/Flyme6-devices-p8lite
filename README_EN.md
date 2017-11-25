@@ -32,21 +32,13 @@ First of all,you should download the Flyme patchrom tools from [Flyme github web
 ### Step Two
 Open terminal and type the following instructions:
 
-``` scilab
-cd  ~/flyme
+`cd  ~/flyme`
+`mkdir devices/p8l`
+`cd devices/p8l`
+`git clone https://github.com/NESPTchnology/Flyme6-devices-p8lite.git`
+`cd  ~/flyme`
+`. build/envsetup.sh`
+`cd devices/p8l`
+`flyme fullota`
 
-mkdir devices/p8l
-
-cd devices/p8l
-
-git clone https://github.com/NESPTchnology/Flyme6-devices-p8lite.git
-
-cd  ~/flyme
-
-. build/envsetup.sh
-
-cd devices/p8l
-
-flyme fullota
-```
 Finally,you can find the zip file under out directory.
