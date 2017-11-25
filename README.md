@@ -15,15 +15,15 @@
 
 ## 更新日志 
 ### 2017/09/24 周天 建立 
-1.数据链接不能用(底包bug)
+>1.数据链接不能用(底包bug)
 ### 2017/10/19 Flyme6.7.10.16
-1.数据链接不能用(底包bug)除非手动设置APN  
-2.升级了底包 @haky 86(XDA ID)   
-3.升级部分APP
+>1.数据链接不能用(底包bug)除非手动设置APN  
+>2.升级了底包 @haky 86(XDA ID)   
+>3.升级部分APP
 ## 使用方法
 **平台：** Linux
 ### 步骤一
-首先，要下载 Flyme patchrom tools 从 [Flyme github官方网站](https://github.com/Flymeos)并且阅读他们的文档，然后安装好编译环境，你可以参考谷歌官方文档。
+>首先，要下载 Flyme patchrom tools 从 [Flyme github官方网站](https://github.com/Flymeos)并且阅读他们的文档，然后安装好编译环境，你可以参考谷歌官方文档。
 ### 步骤二
 打开终端输入下列命令：   
 
