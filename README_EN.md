@@ -15,11 +15,11 @@
 **Team Weibo:** [NESP_Technology](http://weibo.com/NESPtechnology)     
 
 **Facebook:** NESP ROM
-->dfgdg<-
+
 ## Update Logs
 ### 24/09/2017 Sunday Build . 
 
-1.Mobile data is not work(Aosp bug).   
+>1.Mobile data is not work(Aosp bug).   
 
 ### 19/10/2017 Flyme6.7.10.16 . 
 
@@ -30,7 +30,7 @@
 ## HOW TO USE IT?
 **Platform:** Linux
 ### Step One
-First of all,you should download the Flyme patchrom tools from [Flyme github website](https://github.com/Flymeos) and read official document .Then you must install Patchrom environment （you can read  Google document about compiling the Android code）.
+>First of all,you should download the Flyme patchrom tools from [Flyme github website](https://github.com/Flymeos) and read official document .Then you must install Patchrom environment （you can read  Google document about compiling the Android code）.
 ### Step Two
 Open terminal and type the following instructions:
 
