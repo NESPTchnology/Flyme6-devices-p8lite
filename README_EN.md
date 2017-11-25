@@ -34,8 +34,10 @@ Open terminal type the following instructions:
 
 ``` scilab
 cd  ~/flyme
-
+```
+``` scilab
 mkdir devices/p8l
-
+```
+``` scilab
 cd devices/p8l
 ```
