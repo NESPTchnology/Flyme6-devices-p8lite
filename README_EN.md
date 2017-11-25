@@ -1,4 +1,4 @@
-![FlymeOS 6][1]
+![FlymeOS6][1]
 ## Language:[中文](./README.md) | English 
 ## Please Read：[NESP Software Licence v1.1](./NESL.md) | [Apache2.0](./Apache.md) | [GPLv2](./GPL.md)  
 
@@ -49,3 +49,6 @@ Open terminal and type the following instructions:
 `flyme fullota`
 
 Finally,you can find the zip file under out directory.
+
+
+  [1]: ./images/flyme.png "flyme.png"
