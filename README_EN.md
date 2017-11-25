@@ -1,6 +1,4 @@
- ->Flyme Patchrom for P8-lite<- 
- 
-  ->居中显示的{文字}(wenzi)<-
+# <center>Flyme Patchrom for P8-lite </center>
  
  ![FlymeOS 6][1]
 ## Language:[中文](./README.md) | English 
