@@ -1,8 +1,7 @@
+![enter description here][1]
 ## 语言:中文 | [English](./README_EN.md)
-## 请先阅读：[NESP Software Licence v1.1](./NESL.md) | [Apache许可证2.0](./Apache.md) | [GPLv2](./GPL.md)
- ->Flyme Patchrom for P8-lite<-  `
- ->居中显示的{文字}(wenzi)<-
- 
+## 请先阅读：[NESP Software Licence v1.1](./NESL.md) | [Apache许可证2.0](./Apache.md) | [GPLv2](./GPL.md)   
+
 **UI种类：** Flyme 6.7
 
 **Android 版本：** Android 6.0.1
@@ -44,3 +43,6 @@
 `flyme fullota`   
 
 最后你可以在out目录下得到zip刷机包。
+
+
+  [1]: ./images/flyme.jpg "flyme.jpg"
