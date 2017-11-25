@@ -1,6 +1,7 @@
 ## 语言:中文 | [English](./README_EN.md)
 ## 请先阅读：[NESP Software Licence v1.1](./NESL.md) | [Apache许可证2.0](./Apache.md) | [GPLv2](./GPL.md)
-# Flyme Patchrom for P8-lite
+ ->Flyme Patchrom for P8-lite<-  `
+ ->居中显示的{文字}(wenzi)<-
 **UI种类：** Flyme 6.7
 
 **Android 版本：** Android 6.0.1
@@ -21,3 +22,22 @@
 ## 使用方法
 **平台：** Linux
 ### 步骤一
+首先，要下载 Flyme patchrom tools 从 [Flyme github官方网站](https://github.com/Flymeos)并且阅读他们的文档，然后安装好编译环境，你可以参考谷歌官方文档。
+### 步骤二
+打开终端输入下列命令：
+`cd  ~/flyme`  
+
+`mkdir devices/p8l`  
+
+`cd devices/p8l`  
+
+`git clone https://github.com/NESPTchnology/Flyme6-devices-p8lite.git`   
+
+`cd  ~/flyme`   
+
+`. build/envsetup.sh`   
+
+`cd devices/p8l`   
+
+`flyme fullota`
+最后你可以在out目录下得到zip刷机包。
