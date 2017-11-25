@@ -12,7 +12,9 @@
 
 **Team Website(Building):**[NESP Technology](http://nesp.1g7.net)  
 
-**Team Weibo:** [NESP_Technology](http://weibo.com/NESPtechnology)  
+**Team Weibo:** [NESP_Technology](http://weibo.com/NESPtechnology)     
+
+**Facebook:** NESP ROM
 
 ## Update Logs
 ### 24/09/2017 Sunday Build . 
