@@ -23,7 +23,7 @@
 ## 使用方法
 **平台：** Linux
 ### 步骤一
->首先，要下载 Flyme patchrom tools 从 [Flyme github官方网站](https://github.com/Flymeos)并且阅读他们的文档，然后安装好==编译环境==，你可以参考谷歌官方文档。
+>首先，要下载 Flyme patchrom tools 从 [Flyme github官方网站](https://github.com/Flymeos)并且阅读他们的文档，然后安装好**编译环境**，你可以参考谷歌官方文档。
 ### 步骤二
 打开终端输入下列命令：   
 
