@@ -4,15 +4,15 @@
 
 # Flyme Patchrom for P8-lite  
 
-UI:Flyme 6  
+**UI:** Flyme 6  
 
-Android Version:Android 6.0.1  
+**Android Version:** Android 6.0.1  
 
-Device：HUAWEI P8 Lite(ALE-TL00,ALE-L21)  
+**Device：** HUAWEI P8 Lite(ALE-TL00,ALE-L21)  
 
-Team Website(Building):[NESP Technology](http://nesp.1g7.net)  
+**Team Website(Building):**[NESP Technology](http://nesp.1g7.net)  
 
-Team Weibo: [NESP_Technology](http://weibo.com/NESPtechnology)  
+**Team Weibo:** [NESP_Technology](http://weibo.com/NESPtechnology)  
 
 ## Update Logs
 ### 24/09/2017 Sunday Build . 
@@ -30,3 +30,14 @@ Team Weibo: [NESP_Technology](http://weibo.com/NESPtechnology)
 ### Step One
 First of all,you should download the Flyme patchrom tools from [Flyme github website](https://github.com/Flymeos) and read official document .Then you must install Patchrom environment （you can read  Google document about compiling the Android code）.
 ### Step Two
+Open terminal type the following instructions:
+
+``` scilab
+cd  ~/flyme
+```
+
+
+``` stata
+mkdir devices/p8l
+cd devices/p8l
+
