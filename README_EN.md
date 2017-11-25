@@ -1,8 +1,8 @@
 # Flyme Patchrom for P8-lite
  
  ![FlymeOS 6][1]
-## Language:[==中文==](./README.md) | English 
-## Please Read：[==NESP Software Licence v1.1==](./NESL.md) | [==Apache2.0==](./Apache.md) | [==GPLv2==](./GPL.md)  
+## Language:[中文](./README.md) | English 
+## Please Read：[NESP Software Licence v1.1](./NESL.md) | [Apache2.0](./Apache.md) | [GPLv2](./GPL.md)  
 
 **UI:** Flyme 6   
 
@@ -30,7 +30,7 @@
 ## HOW TO USE IT?
 **Platform:** Linux
 ### Step One
->First of all,you should download the Flyme patchrom tools from [Flyme github website](https://github.com/Flymeos) and read official document .Then you must install ==**Patchrom environment**== （you can read  Google document about compiling the Android code）.
+>First of all,you should download the Flyme patchrom tools from [Flyme github website](https://github.com/Flymeos) and read official document .Then you must install **Patchrom environment** （you can read  Google document about compiling the Android code）.
 ### Step Two
 Open terminal and type the following instructions:
 
