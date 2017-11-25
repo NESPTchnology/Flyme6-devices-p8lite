@@ -1,7 +1,7 @@
 # Flyme Patchrom for P8-lite
 ![FlymeOS 6][1]
-## 语言:中文 | [==English==](./README_EN.md)
-## 请先阅读：[==NESP Software Licence v1.1==](./NESL.md) | [==Apache许可证2.0==](./Apache.md) | [==GPLv2==](./GPL.md)   
+## 语言:中文 | [English](./README_EN.md)
+## 请先阅读：[NESP Software Licence v1.1](./NESL.md) | [Apache许可证2.0](./Apache.md) | [GPLv2](./GPL.md)   
 
 **UI种类：** Flyme 6.7
 
