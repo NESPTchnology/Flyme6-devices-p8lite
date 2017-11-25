@@ -26,7 +26,7 @@ Team Weibo: [NESP_Technology](http://weibo.com/NESPtechnology)
 3.Update some APP 
 
 ## HOW TO USE IT?
-**Platform:**Linux
+**Platform:** Linux
 ### Step One
 First of all,you should download the Flyme patchrom tools from [Flyme github website](https://github.com/Flymeos) and read official document .Then you must install Patchrom environment （you can read  Google document about compiling the Android code）.
 ### Step Two
