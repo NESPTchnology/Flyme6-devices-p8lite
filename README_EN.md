@@ -25,5 +25,8 @@ Team Weibo: [NESP_Technology](http://weibo.com/NESPtechnology)
 2.Update the AOSP @haky 86(XDA ID).   
 3.Update some APP 
 
-## HOW TO USE?
-First of all,you should down the Flyme patchrom tools from [Flyme github website](https://github.com/Flymeos) and read official document .Then you must install Patchrom environment （you can read ）.
+## HOW TO USE IT?
+Platform:Linux
+### Step One
+First of all,you should download the Flyme patchrom tools from [Flyme github website](https://github.com/Flymeos) and read official document .Then you must install Patchrom environment （you can read  Google document about compiling the Android code）.
+### Step Two
