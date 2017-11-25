@@ -30,14 +30,23 @@
 ### Step One
 First of all,you should download the Flyme patchrom tools from [Flyme github website](https://github.com/Flymeos) and read official document .Then you must install Patchrom environment （you can read  Google document about compiling the Android code）.
 ### Step Two
-Open terminal type the following instructions:
+Open terminal and type the following instructions:
 
 ``` scilab
 cd  ~/flyme
-```
-``` scilab
+
 mkdir devices/p8l
-```
-``` scilab
+
 cd devices/p8l
+
+git clone https://github.com/NESPTchnology/Flyme6-devices-p8lite.git
+
+cd  ~/flyme
+
+. build/envsetup.sh
+
+cd devices/p8l
+
+flyme fullota
 ```
+Finally,you can find the zip file under out directory.
