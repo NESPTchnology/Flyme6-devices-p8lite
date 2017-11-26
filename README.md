@@ -25,8 +25,8 @@
 ### 步骤一
 >首先，要下载 Flyme patchrom tools 从 [Flyme github官方网站](https://github.com/Flymeos)并且阅读他们的文档，然后安装好**编译环境**，你可以参考谷歌官方文档。
 ### 步骤二
-打开终端输入下列命令：   
-
+打开终端输入下列命令：   
+```bash
 `cd  ~/flyme/devices` 
 
 `git clone https://github.com/NESPTchnology/Flyme6-devices-p8lite.git`   
@@ -39,8 +39,8 @@
 
 `cd devices/p8l`   
 
-`flyme fullota`   
-
+`flyme fullota`   
+```
 最后你可以在out目录下得到zip刷机包。
 
 
