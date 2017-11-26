@@ -35,13 +35,11 @@
 ### Step Two
 Open terminal and type the following instructions:
 
-`cd  ~/flyme`  
-
-`mkdir devices/p8l`  
-
-`cd devices/p8l`  
+`cd  ~/flyme/devices`
 
 `git clone https://github.com/NESPTchnology/Flyme6-devices-p8lite.git`   
+
+`mv Flyme-devices-p8lite p8l`
 
 `cd  ~/flyme`   
 
