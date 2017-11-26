@@ -27,19 +27,19 @@
 ### 步骤二
 打开终端输入下列命令：   
 ```bash
-`cd  ~/flyme/devices` 
+cd  ~/flyme/devices 
 
-`git clone https://github.com/NESPTchnology/Flyme6-devices-p8lite.git`   
+git clone https://github.com/NESPTchnology/Flyme6-devices-p8lite.git   
 
-`mv Flyme6-devices-p8lite p8l`
+mv Flyme6-devices-p8lite p8l
 
-`cd  ~/flyme`   
+cd  ~/flyme   
 
-`. build/envsetup.sh`   
+. build/envsetup.sh   
 
-`cd devices/p8l`   
+cd devices/p8l   
 
-`flyme fullota`   
+flyme fullota   
 ```
 最后你可以在out目录下得到zip刷机包。
 
