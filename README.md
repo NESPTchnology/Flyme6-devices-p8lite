@@ -27,13 +27,11 @@
 ### 步骤二
 打开终端输入下列命令：   
 
-`cd  ~/flyme`  
-
-`mkdir devices/p8l`  
-
-`cd devices/p8l`  
+`cd  ~/flyme/devices` 
 
 `git clone https://github.com/NESPTchnology/Flyme6-devices-p8lite.git`   
+
+`mv Flyme6-devices-p8lite p8l`
 
 `cd  ~/flyme`   
 
