@@ -1,0 +1,23 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.adb.secure=0
+ro.allow.mock.location=1
+ro.secure=0
+security.perf_harden=0
+ro.zygote=zygote64_32
+ro.debuggable=1
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+ro.dalvik.vm.native.bridge=0
+debug.atrace.tags.enableflags=0
+persist.sys.usb.config=mtp,adb
+ro.magic.api.version=0.1
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=Thu Oct 12 12:01:33 CEST 2017
+ro.bootimage.build.date.utc=1507802493
+ro.bootimage.build.fingerprint=Huawei/aosp_alice/alice:6.0.1/MOB31Z/root10121201:userdebug/test-keys

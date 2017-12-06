@@ -1,0 +1,12 @@
+kernel=kernel
+ramdisk=RAMDISK
+page_size=2048
+kernel_size=20008816
+ramdisk_size=1937938
+base_addr=0x07478000
+kernel_offset=0x00008000
+ramdisk_offset=0x07b88000
+tags_offset=0x02988000
+cmd_line='hisi_dma_print=0 vmalloc=384M maxcpus=8 coherent_pool=512K no_irq_affinity ate_enable=true androidboot.selinux=permissive'
+board=""
+format=gzip
