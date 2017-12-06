@@ -45,4 +45,4 @@ flyme fullota  
 最后你可以在out目录下得到zip刷机包。
 
 
-  [1]: ./images/flyme.png "flyme.png"
+  [1]: ../images/flyme.png "flyme.png"
