@@ -16,15 +16,21 @@
 |Facebook|NESP ROM|
 
 ## Update Logs
+>_**More information please attention to other ROM that made by patchrom on flyme offical website.**_
+
 ### 24/09/2017 Sunday Build .
 
->1.Mobile data is not work(Aosp bug).   
+>1.Mobile data is not work(AOSP bug).   
 
 ### 19/10/2017 Flyme6.7.10.16 .
 
 >1.Mobile data is not work(AOSP bug)unless setting APN.   
 >2.Update the AOSP @haky 86(XDA ID).   
 >3.Update some APP
+
+### 06/12/2017 Flyme6.7.11.24 .
+
+>1.Update some System APP.
 
 ## HOW TO USE IT?
 **Platform:** Linux
