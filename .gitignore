@@ -1,0 +1,7 @@
+/board/*
+/autopatch/*
+/out/*
+/Tools/*
+ota.zip
+/history_package/*
+vendor/system/app/webview/webview.apk
