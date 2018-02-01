@@ -9,6 +9,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
+        Lcom/android/server/am/ActivityStackSupervisor$FlymeInjector;,
         Lcom/android/server/am/ActivityStackSupervisor$ActivityContainer;,
         Lcom/android/server/am/ActivityStackSupervisor$ActivityDisplay;,
         Lcom/android/server/am/ActivityStackSupervisor$ActivityStackSupervisorHandler;,
@@ -1072,17 +1073,14 @@
 
     move-result-object v0
 
-    .line 504
-    const v1, 0x11200bb
+    const v1, #android:bool@config_enableCpuBoostForAppLaunch#t
 
-    .line 503
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/android/server/am/ActivityStackSupervisor;->mIsPerfBoostEnabled:Z
 
-    .line 505
     iget-object v0, p0, Lcom/android/server/am/ActivityStackSupervisor;->mService:Lcom/android/server/am/ActivityManagerService;
 
     iget-object v0, v0, Lcom/android/server/am/ActivityManagerService;->mContext:Landroid/content/Context;
@@ -1091,22 +1089,18 @@
 
     move-result-object v0
 
-    .line 506
-    const v1, 0x11200be
+    const v1, #android:bool@config_disablePacking#t
 
-    .line 505
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/android/server/am/ActivityStackSupervisor;->mIsperfDisablepackingEnable:Z
 
-    .line 508
     iget-boolean v0, p0, Lcom/android/server/am/ActivityStackSupervisor;->mIsPerfBoostEnabled:Z
 
     if-eqz v0, :cond_0
 
-    .line 509
     iget-object v0, p0, Lcom/android/server/am/ActivityStackSupervisor;->mService:Lcom/android/server/am/ActivityManagerService;
 
     iget-object v0, v0, Lcom/android/server/am/ActivityManagerService;->mContext:Landroid/content/Context;
@@ -1115,17 +1109,14 @@
 
     move-result-object v0
 
-    .line 510
-    const v1, 0x10e00b2
+    const v1, #android:integer@launchboost_timeout_param#t
 
-    .line 509
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
     move-result v0
 
     iput v0, p0, Lcom/android/server/am/ActivityStackSupervisor;->lBoostTimeOut:I
 
-    .line 511
     iget-object v0, p0, Lcom/android/server/am/ActivityStackSupervisor;->mService:Lcom/android/server/am/ActivityManagerService;
 
     iget-object v0, v0, Lcom/android/server/am/ActivityManagerService;->mContext:Landroid/content/Context;
@@ -1134,23 +1125,19 @@
 
     move-result-object v0
 
-    .line 512
-    const v1, 0x1070050
+    const v1, #android:array@launchboost_param_value#t
 
-    .line 511
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getIntArray(I)[I
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/android/server/am/ActivityStackSupervisor;->lBoostCpuParamVal:[I
 
-    .line 515
     :cond_0
     iget-boolean v0, p0, Lcom/android/server/am/ActivityStackSupervisor;->mIsperfDisablepackingEnable:Z
 
     if-eqz v0, :cond_1
 
-    .line 516
     iget-object v0, p0, Lcom/android/server/am/ActivityStackSupervisor;->mService:Lcom/android/server/am/ActivityManagerService;
 
     iget-object v0, v0, Lcom/android/server/am/ActivityManagerService;->mContext:Landroid/content/Context;
@@ -1159,17 +1146,14 @@
 
     move-result-object v0
 
-    .line 517
-    const v1, 0x10e00b5
+    const v1, #android:integer@disablepacking_timeout_param#t
 
-    .line 516
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
     move-result v0
 
     iput v0, p0, Lcom/android/server/am/ActivityStackSupervisor;->lDisPackTimeOut:I
 
-    .line 518
     iget-object v0, p0, Lcom/android/server/am/ActivityStackSupervisor;->mService:Lcom/android/server/am/ActivityManagerService;
 
     iget-object v0, v0, Lcom/android/server/am/ActivityManagerService;->mContext:Landroid/content/Context;
@@ -1178,17 +1162,14 @@
 
     move-result-object v0
 
-    .line 519
-    const v1, 0x1070054
+    const v1, #android:array@launchboost_packing_param_value#t
 
-    .line 518
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getIntArray(I)[I
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/android/server/am/ActivityStackSupervisor;->lBoostPackParamVal:[I
 
-    .line 497
     :cond_1
     return-void
 .end method
@@ -1207,18 +1188,14 @@
 
     move-result-object v0
 
-    .line 3557
-    const v1, 0x10500c3
+    const v1, #android:dimen@default_minimal_size_resizable_task#t
 
-    .line 3556
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
     move-result v0
 
-    .line 3555
     iput v0, p0, Lcom/android/server/am/ActivityStackSupervisor;->mDefaultMinSizeOfResizeableTask:I
 
-    .line 3554
     return-void
 .end method
 
@@ -15648,6 +15625,9 @@
     .param p4, "profilerInfo"    # Landroid/app/ProfilerInfo;
 
     .prologue
+
+    invoke-static/range {p1 .. p2}, Lcom/android/server/am/ActivityStackSupervisor$FlymeInjector;->interceptAcquireGooglePlayServiceIntent(Landroid/content/Intent;Landroid/content/pm/ResolveInfo;)V
+
     const/4 v0, 0x0
 
     const/4 v4, 0x0
