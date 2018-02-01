@@ -1,3 +1,6 @@
+#NESP CUSTOM FILES
+include ./nesp_files/nesp.mk
+
 # Makefile Reference
 # Please use this file as the project Makefile reference
 
@@ -205,4 +208,3 @@ PRODUCE_BLOCK_BASED_OTA := false
 
 
 include $(PORT_BUILD)/main.mk
-include nesp_files/nesp.mk
