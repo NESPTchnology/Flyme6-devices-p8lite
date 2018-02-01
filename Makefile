@@ -195,5 +195,4 @@ PRODUCE_INTERNATIONAL_ROM := true
 
 include $(PORT_BUILD)/main.mk
 
-nesp:
-	@bash nesp_custom.sh
+include nesp.mk
