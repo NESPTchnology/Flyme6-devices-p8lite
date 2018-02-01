@@ -1,0 +1,5 @@
+/board/*
+/autopatch/*
+/out/*
+vendor/system/app/webview/webview.apk
+ota.zip

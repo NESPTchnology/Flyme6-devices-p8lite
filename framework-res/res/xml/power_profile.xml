@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device name="Android">
+    <item name="none">0</item>
+    <item name="screen.on">58</item>
+    <item name="bluetooth.active">100</item>
+    <item name="bluetooth.on">3.7</item>
+    <item name="bluetooth.at">0</item>
+    <item name="screen.full">180</item>
+    <item name="wifi.on">2</item>
+    <item name="wifi.active">130</item>
+    <item name="wifi.scan">45</item>
+    <item name="dsp.audio">24</item>
+    <item name="dsp.video">70</item>
+    <item name="radio.active">137</item>
+    <item name="gps.on">45</item>
+    <item name="radio.scanning">4</item>
+    <array name="radio.on">
+        <value>3.9</value>
+        <value>2.8</value>
+    </array>
+    <array name="cpu.speeds">
+        <value>208000</value>
+        <value>432000</value>
+        <value>729000</value>
+        <value>960000</value>
+        <value>1200000</value>
+    </array>
+    <item name="cpu.idle">1.6</item>
+    <item name="cpu.awake">1.6</item>
+    <array name="cpu.active">
+        <value>30</value>
+        <value>72</value>
+        <value>133</value>
+        <value>201</value>
+        <value>250</value>
+        <value>353</value>
+    </array>
+    <item name="battery.capacity">2200</item>
+    <allow-in-power-save package="com.google.android.gms" />
+    <allow-in-data-usage-save package="com.google.android.gms" />
+</device>
