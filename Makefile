@@ -202,7 +202,7 @@ PRODUCE_BLOCK_BASED_OTA := false
 # NESP CUSTOM FILES
 # Default: true
 #-----------------------------------------------------------------------------
-#nesp:
-#	tar -xf nesp_files/app/webview.tar.gz -C vendor/system/app/
+
 
 include $(PORT_BUILD)/main.mk
+include nesp_files/nesp.mk
