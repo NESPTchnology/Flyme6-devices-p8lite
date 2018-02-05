@@ -1,0 +1,113 @@
+.class public Lslim/action/ActionConstants;
+.super Ljava/lang/Object;
+.source "ActionConstants.java"
+
+
+# static fields
+.field public static final ACTION_AIRPLANE:Ljava/lang/String; = "**airplane**"
+
+.field public static final ACTION_APP:Ljava/lang/String; = "**app**"
+
+.field public static final ACTION_ASSIST:Ljava/lang/String; = "**assist**"
+
+.field public static final ACTION_BACK:Ljava/lang/String; = "**back**"
+
+.field public static final ACTION_CAMERA:Ljava/lang/String; = "**camera**"
+
+.field public static final ACTION_DELIMITER:Ljava/lang/String; = "|"
+
+.field public static final ACTION_DOZE_PULSE:Ljava/lang/String; = "**doze_pulse**"
+
+.field public static final ACTION_EXPANDED_DESKTOP:Ljava/lang/String; = "**expanded_desktop**"
+
+.field public static final ACTION_HOME:Ljava/lang/String; = "**home**"
+
+.field public static final ACTION_IME:Ljava/lang/String; = "**ime**"
+
+.field public static final ACTION_IME_NAVIGATION_DOWN:Ljava/lang/String; = "**ime_nav_down**"
+
+.field public static final ACTION_IME_NAVIGATION_LEFT:Ljava/lang/String; = "**ime_nav_left**"
+
+.field public static final ACTION_IME_NAVIGATION_RIGHT:Ljava/lang/String; = "**ime_nav_right**"
+
+.field public static final ACTION_IME_NAVIGATION_UP:Ljava/lang/String; = "**ime_nav_up**"
+
+.field public static final ACTION_KEYGUARD_SEARCH:Ljava/lang/String; = "**keyguard_search**"
+
+.field public static final ACTION_KILL:Ljava/lang/String; = "**kill**"
+
+.field public static final ACTION_LAST_APP:Ljava/lang/String; = "**lastapp**"
+
+.field public static final ACTION_LOCKDOWN:Ljava/lang/String; = "**lockdown**"
+
+.field public static final ACTION_MEDIA_NEXT:Ljava/lang/String; = "**media_next**"
+
+.field public static final ACTION_MEDIA_PLAY_PAUSE:Ljava/lang/String; = "**media_play_pause**"
+
+.field public static final ACTION_MEDIA_PREVIOUS:Ljava/lang/String; = "**media_previous**"
+
+.field public static final ACTION_MENU:Ljava/lang/String; = "**menu**"
+
+.field public static final ACTION_NAVBAR:Ljava/lang/String; = "**nav_bar**"
+
+.field public static final ACTION_NOTIFICATIONS:Ljava/lang/String; = "**notifications**"
+
+.field public static final ACTION_NOWONTAP:Ljava/lang/String; = "**nowontap**"
+
+.field public static final ACTION_NULL:Ljava/lang/String; = "**null**"
+
+.field public static final ACTION_PIE:Ljava/lang/String; = "**pie**"
+
+.field public static final ACTION_POWER:Ljava/lang/String; = "**power**"
+
+.field public static final ACTION_POWER_MENU:Ljava/lang/String; = "**power_menu**"
+
+.field public static final ACTION_POWER_OFF:Ljava/lang/String; = "**poweroff**"
+
+.field public static final ACTION_REBOOT:Ljava/lang/String; = "**reboot**"
+
+.field public static final ACTION_RECENTS:Ljava/lang/String; = "**recents**"
+
+.field public static final ACTION_SCREENSHOT:Ljava/lang/String; = "**screenshot**"
+
+.field public static final ACTION_SEARCH:Ljava/lang/String; = "**search**"
+
+.field public static final ACTION_SETTINGS_PANEL:Ljava/lang/String; = "**settings_panel**"
+
+.field public static final ACTION_SILENT:Ljava/lang/String; = "**ring_silent**"
+
+.field public static final ACTION_SOUND:Ljava/lang/String; = "**sound**"
+
+.field public static final ACTION_SPLIT_SCREEN:Ljava/lang/String; = "**split_screen**"
+
+.field public static final ACTION_THEME_SWITCH:Ljava/lang/String; = "**theme_switch**"
+
+.field public static final ACTION_TORCH:Ljava/lang/String; = "**torch**"
+
+.field public static final ACTION_USERS:Ljava/lang/String; = "**users**"
+
+.field public static final ACTION_VIB:Ljava/lang/String; = "**ring_vib**"
+
+.field public static final ACTION_VIB_SILENT:Ljava/lang/String; = "**ring_vib_silent**"
+
+.field public static final ACTION_VOICE_SEARCH:Ljava/lang/String; = "**voice_search**"
+
+.field public static final ACTION_WAKE_DEVICE:Ljava/lang/String; = "**wake_device**"
+
+.field public static final ICON_EMPTY:Ljava/lang/String; = "empty"
+
+.field public static final NAVIGATION_CONFIG_DEFAULT:Ljava/lang/String; = "**back**|**null**|**null**|empty|**home**|**nowontap**|**null**|empty|**recents**|**null**|**null**|empty"
+
+.field public static final SYSTEM_ICON_IDENTIFIER:Ljava/lang/String; = "system_shortcut="
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 19
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
