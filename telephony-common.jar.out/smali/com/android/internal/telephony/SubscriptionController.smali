@@ -672,7 +672,7 @@
 .end method
 
 .method private getSubInfoRecord(Landroid/database/Cursor;)Landroid/telephony/SubscriptionInfo;
-    .locals 18
+    .locals 17
     .param p1, "cursor"    # Landroid/database/Cursor;
 
     .prologue
@@ -839,10 +839,10 @@
     move-result-object v1
 
     .line 290
-    const v17, 0x108043d
+    const v16, 0x108043d
 
     .line 289
-    move/from16 v0, v17
+    move/from16 v0, v16
 
     invoke-static {v1, v0}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -892,42 +892,24 @@
 
     .line 298
     .local v14, "countryIso":Ljava/lang/String;
-    const-string/jumbo v1, "user_network_mode"
-
-    .line 297
-    move-object/from16 v0, p1
-
-    invoke-interface {v0, v1}, Landroid/database/Cursor;->getColumnIndexOrThrow(Ljava/lang/String;)I
-
-    move-result v1
-
-    move-object/from16 v0, p1
-
-    invoke-interface {v0, v1}, Landroid/database/Cursor;->getInt(I)I
-
-    move-result v15
-
-    .line 310
-    .local v15, "userNwMode":I
+    
     move-object/from16 v0, p0
 
     iget-object v1, v0, Lcom/android/internal/telephony/SubscriptionController;->mTelephonyManager:Landroid/telephony/TelephonyManager;
 
     invoke-virtual {v1, v2}, Landroid/telephony/TelephonyManager;->getLine1Number(I)Ljava/lang/String;
 
-    move-result-object v16
+    move-result-object v15
 
     .line 311
     .local v16, "line1Number":Ljava/lang/String;
-    invoke-static/range {v16 .. v16}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static/range {v15 .. v15}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    move-object/from16 v0, v16
-
-    invoke-virtual {v0, v9}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v15, v9}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -938,13 +920,13 @@
     :goto_0
     new-instance v1, Landroid/telephony/SubscriptionInfo;
 
-    invoke-direct/range {v1 .. v15}, Landroid/telephony/SubscriptionInfo;-><init>(ILjava/lang/String;ILjava/lang/CharSequence;Ljava/lang/CharSequence;IILjava/lang/String;ILandroid/graphics/Bitmap;IILjava/lang/String;I)V
+    invoke-direct/range {v1 .. v14}, Landroid/telephony/SubscriptionInfo;-><init>(ILjava/lang/String;ILjava/lang/CharSequence;Ljava/lang/CharSequence;IILjava/lang/String;ILandroid/graphics/Bitmap;IILjava/lang/String;)V
 
     return-object v1
 
     .line 312
     :cond_1
-    move-object/from16 v9, v16
+    move-object/from16 v9, v15
 
     goto :goto_0
 .end method

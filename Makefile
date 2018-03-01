@@ -54,7 +54,7 @@ vendor_modify_images := boot
 # The default value is Bluetooth.
 # You can configure the apk name in the vendor/system/app or vendor/system/priv-app directory.
 #-----------------------------------------------------------------------------
-vendor_saved_apps := Bluetooth BluetoothMidiService BookmarkProvider EasterEgg ExtShared HTMLViewer KeyChain NfcNci PacProcessor PrintRecommendationService PrintSpooler Stk UserDictionaryProvider WAPPushManager WallpaperBackup BackupRestoreConfirmation BlockedNumberProvider CarrierConfig CellBroadcastReceiver DefaultContainerService EmergencyInfo ExternalStorageProvider FusedLocation InputDevices ManagedProvisioning MtpDocumentsProvider ProxyHandler SharedStorageBackup Shell StatementService StorageManager Tag WallpaperCropper
+vendor_saved_apps := Bluetooth BluetoothMidiService BookmarkProvider EasterEgg ExtShared HTMLViewer KeyChain NfcNci PacProcessor PrintRecommendationService PrintSpooler Stk UserDictionaryProvider WAPPushManager WallpaperBackup BackupRestoreConfirmation BlockedNumberProvider CarrierConfig CellBroadcastReceiver DefaultContainerService EmergencyInfo ExternalStorageProvider FusedLocation InputDevices ManagedProvisioning MtpDocumentsProvider ProxyHandler SharedStorageBackup Shell StatementService StorageManager Tag WallpaperCropper SlimSettingsProvider
 
 ##############################################################################
 # The value decides which vendor apk you want to modify.
@@ -72,7 +72,7 @@ vendor_saved_apps := Bluetooth BluetoothMidiService BookmarkProvider EasterEgg E
 # You need to decode android.policy.jar to the project directory (use apktool d android.policy.jar) first,
 # and then you can make it by:   make android.policy
 #-----------------------------------------------------------------------------
-vendor_modify_jars := framework org.slim.framework services services.slim telephony-common wifi-service
+vendor_modify_jars := framework services telephony-common wifi-service
 
 ##############################################################################
 # The value decides which board system directory you want to save.
@@ -127,8 +127,8 @@ vendor_modify_jars := framework org.slim.framework services services.slim teleph
 # The property decide whether hide the soft mainkeys.
 # If 1, hide the soft mainkeys. If 0, display the soft mainkeys.
 # You should configure the property according to your device.
-#override_property += \
-#    qemu.hw.mainkeys=0
+override_property += \
+    qemu.hw.mainkeys=0 
 
 
 # The value of the property ro.flyme.romer will be contained in the ota package name.
@@ -138,8 +138,11 @@ vendor_modify_jars := framework org.slim.framework services services.slim teleph
 # The default value is Nexus-6P_Unofficial.
 # You should configure the property according to your device and your ID with replace the "Nexus-6P_Unofficial".
 override_property += \
-    ro.flyme.romer=Unofficial \
-    ro.product.model_romer=Pixel_Unofficial
+    ro.flyme.romer=Unofficial_Water \
+    ro.product.model_romer=ALE-TL00 \
+    ro.product.device=ALE-TL00 \
+    ro.product.model=ALE-TL00 \
+    ro.nesp.firmware.version=flyme6.8.1.31
 
 ##############################################################################
 # The value decides which property you will remove from the build.prop.
@@ -155,7 +158,7 @@ override_property += \
 # Set it to be false when you want to escape the verification.
 # Default: true
 #-----------------------------------------------------------------------------
-#USE_ASSERTIONS_IN_UPDATER_SCRIPT := false
+USE_ASSERTIONS_IN_UPDATER_SCRIPT := false
 
 ##############################################################################
 # Defines whether reduces useless resources, only keep the resources of preferred configuration, like current density or locale.
@@ -175,7 +178,7 @@ override_property += \
 # Will fall back to a file-based OTA if the target_files is older and doesn't support block-based OTAs.
 # Default: true
 #-----------------------------------------------------------------------------
-#PRODUCE_BLOCK_BASED_OTA := false
+PRODUCE_BLOCK_BASED_OTA := false
 
 ##############################################################################
 # Defines whether build an international version of package.

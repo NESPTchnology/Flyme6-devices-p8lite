@@ -2060,39 +2060,31 @@
 
     aput v1, v0, v2
 
-    .line 659
     :cond_1
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
-    .line 660
-    const v1, 0x10e0004
+    const v1, #android:integer@config_soundEffectVolumeDb#t
 
-    .line 659
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
     move-result v0
 
     sput v0, Lcom/android/server/audio/AudioService;->sSoundEffectVolumeDb:I
 
-    .line 662
     iput v6, p0, Lcom/android/server/audio/AudioService;->mForcedUseForComm:I
 
-    .line 664
     invoke-direct {p0}, Lcom/android/server/audio/AudioService;->createAudioSystemThread()V
 
-    .line 666
     iget-object v0, p0, Lcom/android/server/audio/AudioService;->mAudioSystemCallback:Landroid/media/AudioSystem$ErrorCallback;
 
     invoke-static {v0}, Landroid/media/AudioSystem;->setErrorCallback(Landroid/media/AudioSystem$ErrorCallback;)V
 
-    .line 668
     invoke-direct {p0}, Lcom/android/server/audio/AudioService;->readCameraSoundForced()Z
 
     move-result v7
 
-    .line 669
     .local v7, "cameraSoundForced":Z
     new-instance v0, Ljava/lang/Boolean;
 
@@ -2139,17 +2131,14 @@
 
     iput-object v0, p0, Lcom/android/server/audio/AudioService;->mSafeMediaVolumeState:Ljava/lang/Integer;
 
-    .line 684
     iget-object v0, p0, Lcom/android/server/audio/AudioService;->mContext:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
-    .line 685
-    const v1, 0x10e0097
+    const v1, #android:integer@config_safe_media_volume_index#t
 
-    .line 684
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
     move-result v0
@@ -2158,45 +2147,36 @@
 
     iput v0, p0, Lcom/android/server/audio/AudioService;->mSafeMediaVolumeIndex:I
 
-    .line 687
     iget-object v0, p0, Lcom/android/server/audio/AudioService;->mContext:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
-    .line 688
-    const v1, 0x112008b
+    const v1, #android:bool@config_useFixedVolume#t
 
-    .line 687
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/android/server/audio/AudioService;->mUseFixedVolume:Z
 
-    .line 692
-    const-string/jumbo v0, "AudioService"
+    const-string v0, "AudioService"
 
     invoke-direct {p0, v6, v0}, Lcom/android/server/audio/AudioService;->updateStreamVolumeAlias(ZLjava/lang/String;)V
 
-    .line 693
     invoke-direct {p0}, Lcom/android/server/audio/AudioService;->readPersistedSettings()V
 
-    .line 694
     invoke-direct {p0}, Lcom/android/server/audio/AudioService;->readUserRestrictions()V
 
-    .line 695
     new-instance v0, Lcom/android/server/audio/AudioService$SettingsObserver;
 
     invoke-direct {v0, p0}, Lcom/android/server/audio/AudioService$SettingsObserver;-><init>(Lcom/android/server/audio/AudioService;)V
 
     iput-object v0, p0, Lcom/android/server/audio/AudioService;->mSettingsObserver:Lcom/android/server/audio/AudioService$SettingsObserver;
 
-    .line 696
     invoke-direct {p0}, Lcom/android/server/audio/AudioService;->createStreamStates()V
 
-    .line 698
     new-instance v0, Lcom/android/server/audio/MediaFocusControl;
 
     iget-object v1, p0, Lcom/android/server/audio/AudioService;->mContext:Landroid/content/Context;
@@ -3581,34 +3561,29 @@
 
     if-eq v0, v2, :cond_3
 
-    .line 1307
     iget v1, p0, Lcom/android/server/audio/AudioService;->mVolumeControlStream:I
 
-    .line 1311
     .local v1, "streamType":I
     :goto_0
     invoke-direct {p0, v1}, Lcom/android/server/audio/AudioService;->ensureValidStreamType(I)V
 
-    .line 1312
     iget-object v0, p0, Lcom/android/server/audio/AudioService;->mStreamVolumeAlias:[I
 
     aget v8, v0, v1
 
-    .line 1315
     .local v8, "resolvedStream":I
     and-int/lit8 v0, p3, 0x4
 
     if-eqz v0, :cond_1
 
-    .line 1316
     const/4 v0, 0x2
 
     if-eq v8, v0, :cond_1
 
-    .line 1317
     and-int/lit8 p3, p3, -0x5
 
-    .line 1322
+    goto :goto_flyme_0
+
     :cond_1
     iget-object v0, p0, Lcom/android/server/audio/AudioService;->mVolumeController:Lcom/android/server/audio/AudioService$VolumeController;
 
@@ -3639,6 +3614,9 @@
     invoke-static {v0, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_2
+
+    :goto_flyme_0
+
     move-object v0, p0
 
     move v2, p1
@@ -8074,7 +8052,7 @@
 
     move-result-object v15
 
-    const v16, 0x1110001
+    const v16, #android:xml@audio_assets#t
 
     invoke-virtual/range {v15 .. v16}, Landroid/content/res/Resources;->getXml(I)Landroid/content/res/XmlResourceParser;
 
@@ -9404,10 +9382,8 @@
 
     move-result-object v0
 
-    .line 3493
-    const v1, 0x10e0097
+    const v1, #android:integer@config_safe_media_volume_index#t
 
-    .line 3492
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
     move-result v0
@@ -9427,24 +9403,20 @@
 
     if-nez v0, :cond_4
 
-    .line 3496
     iget-object v0, p0, Lcom/android/server/audio/AudioService;->mContext:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
-    .line 3497
-    const v1, 0x1120084
+    const v1, #android:bool@config_safe_media_volume_enabled#t
 
-    .line 3496
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
     move-result v9
 
-    .line 3500
     :goto_0
-    const-string/jumbo v0, "audio.safemedia.bypass"
+    const-string v0, "audio.safemedia.bypass"
 
     const/4 v1, 0x0
 
@@ -11163,22 +11135,18 @@
 
     if-nez v0, :cond_0
 
-    .line 5709
     iget-object v0, p0, Lcom/android/server/audio/AudioService;->mContext:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
-    .line 5710
-    const v1, 0x1120086
+    const v1, #android:bool@config_camera_sound_forced#t
 
-    .line 5709
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
     move-result v0
 
-    .line 5708
     :goto_0
     return v0
 
