@@ -197,5 +197,6 @@ PRODUCE_BLOCK_BASED_OTA := false
 # Default: false
 #-----------------------------------------------------------------------------
 #PRODUCE_IS_AB_UPDATE := true
-
+nesp:
+	@bash nesp_custom.sh
 include $(PORT_BUILD)/main.mk
