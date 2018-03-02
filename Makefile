@@ -142,7 +142,7 @@ override_property += \
     ro.product.model_romer=ALE-TL00 \
     ro.product.device=ALE-TL00 \
     ro.product.model=ALE-TL00 \
-    ro.nesp.firmware.version=flyme6.8.1.31
+    ro.nesp.firmware.version=flyme6.8.1.31.3.2
 
 ##############################################################################
 # The value decides which property you will remove from the build.prop.
@@ -197,6 +197,5 @@ PRODUCE_BLOCK_BASED_OTA := false
 # Default: false
 #-----------------------------------------------------------------------------
 #PRODUCE_IS_AB_UPDATE := true
-nesp:
-	@bash nesp_custom.sh
+
 include $(PORT_BUILD)/main.mk
