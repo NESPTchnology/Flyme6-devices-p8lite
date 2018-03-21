@@ -327,16 +327,15 @@
 
     if-eqz v10, :cond_1
 
-    .line 517
     :cond_3
+    invoke-direct {p0, v7}, Lcom/android/server/wm/WallpaperController;->adjustWallpaperMoveWindow(Lcom/android/server/wm/WindowState;)V
+
     if-nez v2, :cond_4
 
-    .line 518
     invoke-virtual {v7}, Lcom/android/server/wm/WindowState;->getStack()Lcom/android/server/wm/TaskStack;
 
     move-result-object v6
 
-    .line 519
     .local v6, "stack":Lcom/android/server/wm/TaskStack;
     if-eqz v6, :cond_7
 
@@ -3788,4 +3787,25 @@
     .line 904
     :cond_5
     return v3
+.end method
+
+.method private adjustWallpaperMoveWindow(Lcom/android/server/wm/WindowState;)V
+    .locals 1
+    .param p1, "w"    # Lcom/android/server/wm/WindowState;
+
+    .prologue
+    iget-object v0, p0, Lcom/android/server/wm/WallpaperController;->mService:Lcom/android/server/wm/WindowManagerService;
+
+    iget-object v0, v0, Lcom/android/server/wm/WindowManagerService;->mMoveWindowService:Lcom/android/server/wm/MoveWindowService;
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, p0, Lcom/android/server/wm/WallpaperController;->mService:Lcom/android/server/wm/WindowManagerService;
+
+    iget-object v0, v0, Lcom/android/server/wm/WindowManagerService;->mMoveWindowService:Lcom/android/server/wm/MoveWindowService;
+
+    invoke-virtual {v0, p1}, Lcom/android/server/wm/MoveWindowService;->adjustWallpaperMoveWindow(Lcom/android/server/wm/WindowState;)V
+
+    :cond_0
+    return-void
 .end method
